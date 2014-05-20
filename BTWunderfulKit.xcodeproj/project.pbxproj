@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF50F9D4192BFF5C00BB1ADF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF50F9D3192BFF5C00BB1ADF /* Foundation.framework */; };
+		DF50F9D9192BFF5C00BB1ADF /* BTWunderfulKit.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = DF50F9D8192BFF5C00BB1ADF /* BTWunderfulKit.h */; };
+		DF50F9DB192BFF5C00BB1ADF /* BTWunderfulKit.m in Sources */ = {isa = PBXBuildFile; fileRef = DF50F9DA192BFF5C00BB1ADF /* BTWunderfulKit.m */; };
+		DF50F9E2192BFF5C00BB1ADF /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF50F9E1192BFF5C00BB1ADF /* XCTest.framework */; };
+		DF50F9E3192BFF5D00BB1ADF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF50F9D3192BFF5C00BB1ADF /* Foundation.framework */; };
+		DF50F9E5192BFF5D00BB1ADF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF50F9E4192BFF5D00BB1ADF /* UIKit.framework */; };
+		DF50F9E8192BFF5D00BB1ADF /* libBTWunderfulKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DF50F9D0192BFF5C00BB1ADF /* libBTWunderfulKit.a */; };
+		DF50F9EE192BFF5D00BB1ADF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DF50F9EC192BFF5D00BB1ADF /* InfoPlist.strings */; };
+		DF50F9F0192BFF5D00BB1ADF /* BTWunderfulKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF50F9EF192BFF5D00BB1ADF /* BTWunderfulKitTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DF50F9E6192BFF5D00BB1ADF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF50F9C8192BFF5C00BB1ADF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF50F9CF192BFF5C00BB1ADF;
+			remoteInfo = BTWunderfulKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DF50F9CE192BFF5C00BB1ADF /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				DF50F9D9192BFF5C00BB1ADF /* BTWunderfulKit.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DF50F9D0192BFF5C00BB1ADF /* libBTWunderfulKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBTWunderfulKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF50F9D3192BFF5C00BB1ADF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DF50F9D7192BFF5C00BB1ADF /* BTWunderfulKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BTWunderfulKit-Prefix.pch"; sourceTree = "<group>"; };
+		DF50F9D8192BFF5C00BB1ADF /* BTWunderfulKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTWunderfulKit.h; sourceTree = "<group>"; };
+		DF50F9DA192BFF5C00BB1ADF /* BTWunderfulKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTWunderfulKit.m; sourceTree = "<group>"; };
+		DF50F9E0192BFF5C00BB1ADF /* BTWunderfulKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BTWunderfulKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF50F9E1192BFF5C00BB1ADF /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		DF50F9E4192BFF5D00BB1ADF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		DF50F9EB192BFF5D00BB1ADF /* BTWunderfulKitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BTWunderfulKitTests-Info.plist"; sourceTree = "<group>"; };
+		DF50F9ED192BFF5D00BB1ADF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DF50F9EF192BFF5D00BB1ADF /* BTWunderfulKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTWunderfulKitTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF50F9CD192BFF5C00BB1ADF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF50F9D4192BFF5C00BB1ADF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF50F9DD192BFF5C00BB1ADF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF50F9E2192BFF5C00BB1ADF /* XCTest.framework in Frameworks */,
+				DF50F9E5192BFF5D00BB1ADF /* UIKit.framework in Frameworks */,
+				DF50F9E3192BFF5D00BB1ADF /* Foundation.framework in Frameworks */,
+				DF50F9E8192BFF5D00BB1ADF /* libBTWunderfulKit.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF50F9C7192BFF5C00BB1ADF = {
+			isa = PBXGroup;
+			children = (
+				DF50F9D5192BFF5C00BB1ADF /* BTWunderfulKit */,
+				DF50F9E9192BFF5D00BB1ADF /* BTWunderfulKitTests */,
+				DF50F9D2192BFF5C00BB1ADF /* Frameworks */,
+				DF50F9D1192BFF5C00BB1ADF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DF50F9D1192BFF5C00BB1ADF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF50F9D0192BFF5C00BB1ADF /* libBTWunderfulKit.a */,
+				DF50F9E0192BFF5C00BB1ADF /* BTWunderfulKitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF50F9D2192BFF5C00BB1ADF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DF50F9D3192BFF5C00BB1ADF /* Foundation.framework */,
+				DF50F9E1192BFF5C00BB1ADF /* XCTest.framework */,
+				DF50F9E4192BFF5D00BB1ADF /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DF50F9D5192BFF5C00BB1ADF /* BTWunderfulKit */ = {
+			isa = PBXGroup;
+			children = (
+				DF50F9D8192BFF5C00BB1ADF /* BTWunderfulKit.h */,
+				DF50F9DA192BFF5C00BB1ADF /* BTWunderfulKit.m */,
+				DF50F9D6192BFF5C00BB1ADF /* Supporting Files */,
+			);
+			path = BTWunderfulKit;
+			sourceTree = "<group>";
+		};
+		DF50F9D6192BFF5C00BB1ADF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF50F9D7192BFF5C00BB1ADF /* BTWunderfulKit-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DF50F9E9192BFF5D00BB1ADF /* BTWunderfulKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				DF50F9EF192BFF5D00BB1ADF /* BTWunderfulKitTests.m */,
+				DF50F9EA192BFF5D00BB1ADF /* Supporting Files */,
+			);
+			path = BTWunderfulKitTests;
+			sourceTree = "<group>";
+		};
+		DF50F9EA192BFF5D00BB1ADF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF50F9EB192BFF5D00BB1ADF /* BTWunderfulKitTests-Info.plist */,
+				DF50F9EC192BFF5D00BB1ADF /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF50F9CF192BFF5C00BB1ADF /* BTWunderfulKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF50F9F3192BFF5D00BB1ADF /* Build configuration list for PBXNativeTarget "BTWunderfulKit" */;
+			buildPhases = (
+				DF50F9CC192BFF5C00BB1ADF /* Sources */,
+				DF50F9CD192BFF5C00BB1ADF /* Frameworks */,
+				DF50F9CE192BFF5C00BB1ADF /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BTWunderfulKit;
+			productName = BTWunderfulKit;
+			productReference = DF50F9D0192BFF5C00BB1ADF /* libBTWunderfulKit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		DF50F9DF192BFF5C00BB1ADF /* BTWunderfulKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF50F9F6192BFF5D00BB1ADF /* Build configuration list for PBXNativeTarget "BTWunderfulKitTests" */;
+			buildPhases = (
+				DF50F9DC192BFF5C00BB1ADF /* Sources */,
+				DF50F9DD192BFF5C00BB1ADF /* Frameworks */,
+				DF50F9DE192BFF5C00BB1ADF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF50F9E7192BFF5D00BB1ADF /* PBXTargetDependency */,
+			);
+			name = BTWunderfulKitTests;
+			productName = BTWunderfulKitTests;
+			productReference = DF50F9E0192BFF5C00BB1ADF /* BTWunderfulKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF50F9C8192BFF5C00BB1ADF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Bluetoo;
+			};
+			buildConfigurationList = DF50F9CB192BFF5C00BB1ADF /* Build configuration list for PBXProject "BTWunderfulKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DF50F9C7192BFF5C00BB1ADF;
+			productRefGroup = DF50F9D1192BFF5C00BB1ADF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF50F9CF192BFF5C00BB1ADF /* BTWunderfulKit */,
+				DF50F9DF192BFF5C00BB1ADF /* BTWunderfulKitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF50F9DE192BFF5C00BB1ADF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF50F9EE192BFF5D00BB1ADF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF50F9CC192BFF5C00BB1ADF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF50F9DB192BFF5C00BB1ADF /* BTWunderfulKit.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF50F9DC192BFF5C00BB1ADF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF50F9F0192BFF5D00BB1ADF /* BTWunderfulKitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DF50F9E7192BFF5D00BB1ADF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF50F9CF192BFF5C00BB1ADF /* BTWunderfulKit */;
+			targetProxy = DF50F9E6192BFF5D00BB1ADF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DF50F9EC192BFF5D00BB1ADF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF50F9ED192BFF5D00BB1ADF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DF50F9F1192BFF5D00BB1ADF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DF50F9F2192BFF5D00BB1ADF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF50F9F4192BFF5D00BB1ADF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/BTWunderfulKit.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BTWunderfulKit/BTWunderfulKit-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		DF50F9F5192BFF5D00BB1ADF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/BTWunderfulKit.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BTWunderfulKit/BTWunderfulKit-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		DF50F9F7192BFF5D00BB1ADF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BTWunderfulKit/BTWunderfulKit-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BTWunderfulKitTests/BTWunderfulKitTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		DF50F9F8192BFF5D00BB1ADF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BTWunderfulKit/BTWunderfulKit-Prefix.pch";
+				INFOPLIST_FILE = "BTWunderfulKitTests/BTWunderfulKitTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF50F9CB192BFF5C00BB1ADF /* Build configuration list for PBXProject "BTWunderfulKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF50F9F1192BFF5D00BB1ADF /* Debug */,
+				DF50F9F2192BFF5D00BB1ADF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF50F9F3192BFF5D00BB1ADF /* Build configuration list for PBXNativeTarget "BTWunderfulKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF50F9F4192BFF5D00BB1ADF /* Debug */,
+				DF50F9F5192BFF5D00BB1ADF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DF50F9F6192BFF5D00BB1ADF /* Build configuration list for PBXNativeTarget "BTWunderfulKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF50F9F7192BFF5D00BB1ADF /* Debug */,
+				DF50F9F8192BFF5D00BB1ADF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF50F9C8192BFF5C00BB1ADF /* Project object */;
+}
