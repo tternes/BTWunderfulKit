@@ -16,6 +16,39 @@
 		DF50F9E8192BFF5D00BB1ADF /* libBTWunderfulKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DF50F9D0192BFF5C00BB1ADF /* libBTWunderfulKit.a */; };
 		DF50F9EE192BFF5D00BB1ADF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DF50F9EC192BFF5D00BB1ADF /* InfoPlist.strings */; };
 		DF50F9F0192BFF5D00BB1ADF /* BTWunderfulKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF50F9EF192BFF5D00BB1ADF /* BTWunderfulKitTests.m */; };
+		DF50F9FB192BFF8500BB1ADF /* BTWClient.m in Sources */ = {isa = PBXBuildFile; fileRef = DF50F9FA192BFF8500BB1ADF /* BTWClient.m */; };
+		DF50FA52192C13F200BB1ADF /* BTWRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = DF50FA51192C13F200BB1ADF /* BTWRequest.m */; };
+		DF50FA55192C142A00BB1ADF /* BTWLoginRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = DF50FA54192C142A00BB1ADF /* BTWLoginRequest.m */; };
+		DF50FA58192C551600BB1ADF /* BTWUrlConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = DF50FA57192C551600BB1ADF /* BTWUrlConnection.m */; };
+		DF50FA5B192C5B8700BB1ADF /* BTWListsRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = DF50FA5A192C5B8700BB1ADF /* BTWListsRequest.m */; };
+		DF50FA61192C625200BB1ADF /* BTWTasksRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = DF50FA60192C625200BB1ADF /* BTWTasksRequest.m */; };
+		DF50FA68192C668700BB1ADF /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF50FA67192C668700BB1ADF /* Cocoa.framework */; };
+		DF50FA78192C668700BB1ADF /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF50F9E1192BFF5C00BB1ADF /* XCTest.framework */; };
+		DF50FA79192C668700BB1ADF /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF50FA67192C668700BB1ADF /* Cocoa.framework */; };
+		DF50FA7C192C668700BB1ADF /* libBTWunderfulKit-OSX.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DF50FA66192C668700BB1ADF /* libBTWunderfulKit-OSX.a */; };
+		DF50FA82192C668700BB1ADF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DF50FA80192C668700BB1ADF /* InfoPlist.strings */; };
+		DF50FA84192C668700BB1ADF /* BTWunderfulKit_OSXTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF50FA83192C668700BB1ADF /* BTWunderfulKit_OSXTests.m */; };
+		DF50FA8B192C66AA00BB1ADF /* BTWRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = DF50FA51192C13F200BB1ADF /* BTWRequest.m */; };
+		DF50FA8C192C66AA00BB1ADF /* BTWLoginRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = DF50FA54192C142A00BB1ADF /* BTWLoginRequest.m */; };
+		DF50FA8D192C66AA00BB1ADF /* BTWListsRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = DF50FA5A192C5B8700BB1ADF /* BTWListsRequest.m */; };
+		DF50FA8E192C66AA00BB1ADF /* BTWTasksRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = DF50FA60192C625200BB1ADF /* BTWTasksRequest.m */; };
+		DF50FA8F192C66AC00BB1ADF /* BTWRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = DF50FA51192C13F200BB1ADF /* BTWRequest.m */; };
+		DF50FA90192C66AC00BB1ADF /* BTWLoginRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = DF50FA54192C142A00BB1ADF /* BTWLoginRequest.m */; };
+		DF50FA91192C66AC00BB1ADF /* BTWListsRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = DF50FA5A192C5B8700BB1ADF /* BTWListsRequest.m */; };
+		DF50FA92192C66AC00BB1ADF /* BTWTasksRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = DF50FA60192C625200BB1ADF /* BTWTasksRequest.m */; };
+		DF50FA93192C66AD00BB1ADF /* BTWRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = DF50FA51192C13F200BB1ADF /* BTWRequest.m */; };
+		DF50FA94192C66AD00BB1ADF /* BTWLoginRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = DF50FA54192C142A00BB1ADF /* BTWLoginRequest.m */; };
+		DF50FA95192C66AD00BB1ADF /* BTWListsRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = DF50FA5A192C5B8700BB1ADF /* BTWListsRequest.m */; };
+		DF50FA96192C66AD00BB1ADF /* BTWTasksRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = DF50FA60192C625200BB1ADF /* BTWTasksRequest.m */; };
+		DF50FA97192C66B000BB1ADF /* BTWClient.m in Sources */ = {isa = PBXBuildFile; fileRef = DF50F9FA192BFF8500BB1ADF /* BTWClient.m */; };
+		DF50FA98192C66B000BB1ADF /* BTWUrlConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = DF50FA57192C551600BB1ADF /* BTWUrlConnection.m */; };
+		DF50FA99192C66B000BB1ADF /* BTWunderfulKit.m in Sources */ = {isa = PBXBuildFile; fileRef = DF50F9DA192BFF5C00BB1ADF /* BTWunderfulKit.m */; };
+		DF50FA9A192C66B100BB1ADF /* BTWClient.m in Sources */ = {isa = PBXBuildFile; fileRef = DF50F9FA192BFF8500BB1ADF /* BTWClient.m */; };
+		DF50FA9B192C66B100BB1ADF /* BTWUrlConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = DF50FA57192C551600BB1ADF /* BTWUrlConnection.m */; };
+		DF50FA9C192C66B100BB1ADF /* BTWunderfulKit.m in Sources */ = {isa = PBXBuildFile; fileRef = DF50F9DA192BFF5C00BB1ADF /* BTWunderfulKit.m */; };
+		DF50FA9D192C66B100BB1ADF /* BTWClient.m in Sources */ = {isa = PBXBuildFile; fileRef = DF50F9FA192BFF8500BB1ADF /* BTWClient.m */; };
+		DF50FA9E192C66B100BB1ADF /* BTWUrlConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = DF50FA57192C551600BB1ADF /* BTWUrlConnection.m */; };
+		DF50FA9F192C66B100BB1ADF /* BTWunderfulKit.m in Sources */ = {isa = PBXBuildFile; fileRef = DF50F9DA192BFF5C00BB1ADF /* BTWunderfulKit.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,6 +58,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = DF50F9CF192BFF5C00BB1ADF;
 			remoteInfo = BTWunderfulKit;
+		};
+		DF50FA7A192C668700BB1ADF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF50F9C8192BFF5C00BB1ADF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF50FA65192C668700BB1ADF;
+			remoteInfo = "BTWunderfulKit-OSX";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -53,6 +93,28 @@
 		DF50F9EB192BFF5D00BB1ADF /* BTWunderfulKitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BTWunderfulKitTests-Info.plist"; sourceTree = "<group>"; };
 		DF50F9ED192BFF5D00BB1ADF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DF50F9EF192BFF5D00BB1ADF /* BTWunderfulKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTWunderfulKitTests.m; sourceTree = "<group>"; };
+		DF50F9F9192BFF8500BB1ADF /* BTWClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTWClient.h; sourceTree = "<group>"; };
+		DF50F9FA192BFF8500BB1ADF /* BTWClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTWClient.m; sourceTree = "<group>"; };
+		DF50F9FE192C010E00BB1ADF /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		DF50FA50192C13F200BB1ADF /* BTWRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTWRequest.h; sourceTree = "<group>"; };
+		DF50FA51192C13F200BB1ADF /* BTWRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTWRequest.m; sourceTree = "<group>"; };
+		DF50FA53192C142A00BB1ADF /* BTWLoginRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTWLoginRequest.h; sourceTree = "<group>"; };
+		DF50FA54192C142A00BB1ADF /* BTWLoginRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTWLoginRequest.m; sourceTree = "<group>"; };
+		DF50FA56192C551600BB1ADF /* BTWUrlConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTWUrlConnection.h; sourceTree = "<group>"; };
+		DF50FA57192C551600BB1ADF /* BTWUrlConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTWUrlConnection.m; sourceTree = "<group>"; };
+		DF50FA59192C5B8700BB1ADF /* BTWListsRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTWListsRequest.h; sourceTree = "<group>"; };
+		DF50FA5A192C5B8700BB1ADF /* BTWListsRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTWListsRequest.m; sourceTree = "<group>"; };
+		DF50FA5F192C625200BB1ADF /* BTWTasksRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTWTasksRequest.h; sourceTree = "<group>"; };
+		DF50FA60192C625200BB1ADF /* BTWTasksRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTWTasksRequest.m; sourceTree = "<group>"; };
+		DF50FA66192C668700BB1ADF /* libBTWunderfulKit-OSX.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libBTWunderfulKit-OSX.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF50FA67192C668700BB1ADF /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		DF50FA6A192C668700BB1ADF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DF50FA6B192C668700BB1ADF /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		DF50FA6C192C668700BB1ADF /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		DF50FA77192C668700BB1ADF /* BTWunderfulKit-OSXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BTWunderfulKit-OSXTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF50FA7F192C668700BB1ADF /* BTWunderfulKit-OSXTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BTWunderfulKit-OSXTests-Info.plist"; sourceTree = "<group>"; };
+		DF50FA81192C668700BB1ADF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DF50FA83192C668700BB1ADF /* BTWunderfulKit_OSXTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTWunderfulKit_OSXTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,14 +137,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DF50FA63192C668700BB1ADF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF50FA68192C668700BB1ADF /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF50FA74192C668700BB1ADF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF50FA79192C668700BB1ADF /* Cocoa.framework in Frameworks */,
+				DF50FA7C192C668700BB1ADF /* libBTWunderfulKit-OSX.a in Frameworks */,
+				DF50FA78192C668700BB1ADF /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		DF50F9C7192BFF5C00BB1ADF = {
 			isa = PBXGroup;
 			children = (
+				DF50F9FE192C010E00BB1ADF /* README.md */,
 				DF50F9D5192BFF5C00BB1ADF /* BTWunderfulKit */,
 				DF50F9E9192BFF5D00BB1ADF /* BTWunderfulKitTests */,
+				DF50FA7D192C668700BB1ADF /* BTWunderfulKit-OSXTests */,
 				DF50F9D2192BFF5C00BB1ADF /* Frameworks */,
 				DF50F9D1192BFF5C00BB1ADF /* Products */,
 			);
@@ -93,6 +175,8 @@
 			children = (
 				DF50F9D0192BFF5C00BB1ADF /* libBTWunderfulKit.a */,
 				DF50F9E0192BFF5C00BB1ADF /* BTWunderfulKitTests.xctest */,
+				DF50FA66192C668700BB1ADF /* libBTWunderfulKit-OSX.a */,
+				DF50FA77192C668700BB1ADF /* BTWunderfulKit-OSXTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -103,6 +187,8 @@
 				DF50F9D3192BFF5C00BB1ADF /* Foundation.framework */,
 				DF50F9E1192BFF5C00BB1ADF /* XCTest.framework */,
 				DF50F9E4192BFF5D00BB1ADF /* UIKit.framework */,
+				DF50FA67192C668700BB1ADF /* Cocoa.framework */,
+				DF50FA69192C668700BB1ADF /* Other Frameworks */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -112,6 +198,8 @@
 			children = (
 				DF50F9D8192BFF5C00BB1ADF /* BTWunderfulKit.h */,
 				DF50F9DA192BFF5C00BB1ADF /* BTWunderfulKit.m */,
+				DF50F9FD192BFFD200BB1ADF /* API */,
+				DF50F9FC192BFFC600BB1ADF /* Client */,
 				DF50F9D6192BFF5C00BB1ADF /* Supporting Files */,
 			);
 			path = BTWunderfulKit;
@@ -143,7 +231,71 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		DF50F9FC192BFFC600BB1ADF /* Client */ = {
+			isa = PBXGroup;
+			children = (
+				DF50F9F9192BFF8500BB1ADF /* BTWClient.h */,
+				DF50F9FA192BFF8500BB1ADF /* BTWClient.m */,
+				DF50FA56192C551600BB1ADF /* BTWUrlConnection.h */,
+				DF50FA57192C551600BB1ADF /* BTWUrlConnection.m */,
+			);
+			name = Client;
+			sourceTree = "<group>";
+		};
+		DF50F9FD192BFFD200BB1ADF /* API */ = {
+			isa = PBXGroup;
+			children = (
+				DF50FA50192C13F200BB1ADF /* BTWRequest.h */,
+				DF50FA51192C13F200BB1ADF /* BTWRequest.m */,
+				DF50FA53192C142A00BB1ADF /* BTWLoginRequest.h */,
+				DF50FA54192C142A00BB1ADF /* BTWLoginRequest.m */,
+				DF50FA59192C5B8700BB1ADF /* BTWListsRequest.h */,
+				DF50FA5A192C5B8700BB1ADF /* BTWListsRequest.m */,
+				DF50FA5F192C625200BB1ADF /* BTWTasksRequest.h */,
+				DF50FA60192C625200BB1ADF /* BTWTasksRequest.m */,
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
+		DF50FA69192C668700BB1ADF /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DF50FA6A192C668700BB1ADF /* Foundation.framework */,
+				DF50FA6B192C668700BB1ADF /* CoreData.framework */,
+				DF50FA6C192C668700BB1ADF /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		DF50FA7D192C668700BB1ADF /* BTWunderfulKit-OSXTests */ = {
+			isa = PBXGroup;
+			children = (
+				DF50FA83192C668700BB1ADF /* BTWunderfulKit_OSXTests.m */,
+				DF50FA7E192C668700BB1ADF /* Supporting Files */,
+			);
+			path = "BTWunderfulKit-OSXTests";
+			sourceTree = "<group>";
+		};
+		DF50FA7E192C668700BB1ADF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF50FA7F192C668700BB1ADF /* BTWunderfulKit-OSXTests-Info.plist */,
+				DF50FA80192C668700BB1ADF /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		DF50FA64192C668700BB1ADF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		DF50F9CF192BFF5C00BB1ADF /* BTWunderfulKit */ = {
@@ -181,6 +333,41 @@
 			productReference = DF50F9E0192BFF5C00BB1ADF /* BTWunderfulKitTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		DF50FA65192C668700BB1ADF /* BTWunderfulKit-OSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF50FA85192C668700BB1ADF /* Build configuration list for PBXNativeTarget "BTWunderfulKit-OSX" */;
+			buildPhases = (
+				DF50FA62192C668700BB1ADF /* Sources */,
+				DF50FA63192C668700BB1ADF /* Frameworks */,
+				DF50FA64192C668700BB1ADF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BTWunderfulKit-OSX";
+			productName = "BTWunderfulKit-OSX";
+			productReference = DF50FA66192C668700BB1ADF /* libBTWunderfulKit-OSX.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		DF50FA76192C668700BB1ADF /* BTWunderfulKit-OSXTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF50FA88192C668700BB1ADF /* Build configuration list for PBXNativeTarget "BTWunderfulKit-OSXTests" */;
+			buildPhases = (
+				DF50FA73192C668700BB1ADF /* Sources */,
+				DF50FA74192C668700BB1ADF /* Frameworks */,
+				DF50FA75192C668700BB1ADF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF50FA7B192C668700BB1ADF /* PBXTargetDependency */,
+			);
+			name = "BTWunderfulKit-OSXTests";
+			productName = "BTWunderfulKit-OSXTests";
+			productReference = DF50FA77192C668700BB1ADF /* BTWunderfulKit-OSXTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -204,6 +391,8 @@
 			targets = (
 				DF50F9CF192BFF5C00BB1ADF /* BTWunderfulKit */,
 				DF50F9DF192BFF5C00BB1ADF /* BTWunderfulKitTests */,
+				DF50FA65192C668700BB1ADF /* BTWunderfulKit-OSX */,
+				DF50FA76192C668700BB1ADF /* BTWunderfulKit-OSXTests */,
 			);
 		};
 /* End PBXProject section */
@@ -217,6 +406,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DF50FA75192C668700BB1ADF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF50FA82192C668700BB1ADF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -224,7 +421,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF50FA55192C142A00BB1ADF /* BTWLoginRequest.m in Sources */,
+				DF50FA58192C551600BB1ADF /* BTWUrlConnection.m in Sources */,
+				DF50FA52192C13F200BB1ADF /* BTWRequest.m in Sources */,
+				DF50FA61192C625200BB1ADF /* BTWTasksRequest.m in Sources */,
 				DF50F9DB192BFF5C00BB1ADF /* BTWunderfulKit.m in Sources */,
+				DF50F9FB192BFF8500BB1ADF /* BTWClient.m in Sources */,
+				DF50FA5B192C5B8700BB1ADF /* BTWListsRequest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,7 +435,43 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF50FA92192C66AC00BB1ADF /* BTWTasksRequest.m in Sources */,
 				DF50F9F0192BFF5D00BB1ADF /* BTWunderfulKitTests.m in Sources */,
+				DF50FA91192C66AC00BB1ADF /* BTWListsRequest.m in Sources */,
+				DF50FA9E192C66B100BB1ADF /* BTWUrlConnection.m in Sources */,
+				DF50FA90192C66AC00BB1ADF /* BTWLoginRequest.m in Sources */,
+				DF50FA9F192C66B100BB1ADF /* BTWunderfulKit.m in Sources */,
+				DF50FA9D192C66B100BB1ADF /* BTWClient.m in Sources */,
+				DF50FA8F192C66AC00BB1ADF /* BTWRequest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF50FA62192C668700BB1ADF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF50FA8E192C66AA00BB1ADF /* BTWTasksRequest.m in Sources */,
+				DF50FA8D192C66AA00BB1ADF /* BTWListsRequest.m in Sources */,
+				DF50FA9B192C66B100BB1ADF /* BTWUrlConnection.m in Sources */,
+				DF50FA8C192C66AA00BB1ADF /* BTWLoginRequest.m in Sources */,
+				DF50FA9C192C66B100BB1ADF /* BTWunderfulKit.m in Sources */,
+				DF50FA9A192C66B100BB1ADF /* BTWClient.m in Sources */,
+				DF50FA8B192C66AA00BB1ADF /* BTWRequest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF50FA73192C668700BB1ADF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF50FA96192C66AD00BB1ADF /* BTWTasksRequest.m in Sources */,
+				DF50FA84192C668700BB1ADF /* BTWunderfulKit_OSXTests.m in Sources */,
+				DF50FA95192C66AD00BB1ADF /* BTWListsRequest.m in Sources */,
+				DF50FA98192C66B000BB1ADF /* BTWUrlConnection.m in Sources */,
+				DF50FA94192C66AD00BB1ADF /* BTWLoginRequest.m in Sources */,
+				DF50FA99192C66B000BB1ADF /* BTWunderfulKit.m in Sources */,
+				DF50FA97192C66B000BB1ADF /* BTWClient.m in Sources */,
+				DF50FA93192C66AD00BB1ADF /* BTWRequest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,6 +483,11 @@
 			target = DF50F9CF192BFF5C00BB1ADF /* BTWunderfulKit */;
 			targetProxy = DF50F9E6192BFF5D00BB1ADF /* PBXContainerItemProxy */;
 		};
+		DF50FA7B192C668700BB1ADF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF50FA65192C668700BB1ADF /* BTWunderfulKit-OSX */;
+			targetProxy = DF50FA7A192C668700BB1ADF /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
@@ -251,6 +495,14 @@
 			isa = PBXVariantGroup;
 			children = (
 				DF50F9ED192BFF5D00BB1ADF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DF50FA80192C668700BB1ADF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF50FA81192C668700BB1ADF /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -386,6 +638,84 @@
 			};
 			name = Release;
 		};
+		DF50FA86192C668700BB1ADF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		DF50FA87192C668700BB1ADF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DF50FA89192C668700BB1ADF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BTWunderfulKit-OSX/BTWunderfulKit-OSX-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BTWunderfulKit-OSXTests/BTWunderfulKit-OSXTests-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		DF50FA8A192C668700BB1ADF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BTWunderfulKit-OSX/BTWunderfulKit-OSX-Prefix.pch";
+				INFOPLIST_FILE = "BTWunderfulKit-OSXTests/BTWunderfulKit-OSXTests-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -411,6 +741,22 @@
 			buildConfigurations = (
 				DF50F9F7192BFF5D00BB1ADF /* Debug */,
 				DF50F9F8192BFF5D00BB1ADF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DF50FA85192C668700BB1ADF /* Build configuration list for PBXNativeTarget "BTWunderfulKit-OSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF50FA86192C668700BB1ADF /* Debug */,
+				DF50FA87192C668700BB1ADF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DF50FA88192C668700BB1ADF /* Build configuration list for PBXNativeTarget "BTWunderfulKit-OSXTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF50FA89192C668700BB1ADF /* Debug */,
+				DF50FA8A192C668700BB1ADF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
