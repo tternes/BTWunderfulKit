@@ -54,10 +54,6 @@
 - (void)connection:(NSURLConnection *)connection didReceiveResponse:(NSURLResponse *)response
 {
     NSHTTPURLResponse *httpResponse = (NSHTTPURLResponse *)response;
-    NSLog(@"response: %@", response);
-    NSLog(@"%s: %ld", __PRETTY_FUNCTION__, (long)httpResponse.statusCode);
-
-    // TODO: content-length checking
     self.receivedData = [NSMutableData data];
 
     self.statusCode = httpResponse.statusCode;
@@ -66,14 +62,11 @@
 
 - (void)connection:(NSURLConnection *)connection didReceiveData:(NSData *)data
 {
-    NSLog(@"%s: bytes=%ld", __PRETTY_FUNCTION__, (long)[data length]);
     [self.receivedData appendData:data];
 }
 
 - (void)connectionDidFinishLoading:(NSURLConnection *)connection
 {
-    NSLog(@"finished");
-    
     [self.delegate connection:self receivedResponse:self.receivedData withStatus:self.statusCode];
 }
 

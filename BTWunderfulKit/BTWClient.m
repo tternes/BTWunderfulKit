@@ -13,7 +13,6 @@
 
 - (void)sendRequest:(BTWRequest *)request
 {
-    NSLog(@"request: %@", request);
     BTWUrlConnection *connection = [[BTWUrlConnection alloc] initWithRequest:request delegate:self];
     connection.delegate = request;
     [connection start];

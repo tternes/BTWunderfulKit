@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "BTWTask.h"
 
 @class BTWunderfulKit;
 @protocol BTWunderfulKitDelegate <NSObject>
@@ -14,7 +15,10 @@
 - (void)kit:(BTWunderfulKit *)kit tokenIsAvailable:(BOOL)available;
 
 - (void)kit:(BTWunderfulKit *)kit receivedLists:(NSArray *)lists;
-- (void)kit:(BTWunderfulKit *)kit receivedTask:(NSString *)task inList:(NSString *)list;
+
+
+- (void)kit:(BTWunderfulKit *)kit receivedTask:(BTWTask *)task;
+- (void)kitFinishedReceivingLists:(BTWunderfulKit *)kit;
 
 @end
 

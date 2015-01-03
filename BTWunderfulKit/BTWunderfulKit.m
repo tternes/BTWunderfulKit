@@ -11,6 +11,8 @@
 #import "BTWLoginRequest.h"
 #import "BTWListsRequest.h"
 #import "BTWTasksRequest.h"
+#import "BTWTask.h"
+#import "BTWList.h"
 
 @interface BTWunderfulKit () <BTWLoginRequestDelegate, BTWListsRequestDelegate, BTWTasksRequestDelegate>
 @property (nonatomic, strong) NSString *token;
@@ -78,7 +80,6 @@
 
 - (void)loginRequest:(BTWLoginRequest *)request receivedToken:(NSString *)token
 {
-    NSLog(@"%@: %@", request, token);
     self.token = token;
     [self.delegate kit:self tokenIsAvailable:YES];
 }
@@ -90,20 +91,24 @@
 
 - (void)listRequest:(BTWListsRequest *)request receivedLists:(NSArray *)lists
 {
-    NSLog(@"%@: %@", request, lists);
-    [self.delegate kit:self receivedLists:lists];
+    NSMutableArray *listObjects = [NSMutableArray array];
+    for(id listInfo in lists)
+    {
+        BTWList *list = [[BTWList alloc] initWithInfo:listInfo];
+        [listObjects addObject:list];
+    }
+    [self.delegate kit:self receivedLists:listObjects];
 }
 
 - (void)tasksRequest:(BTWTasksRequest *)request receivedTasks:(NSArray *)tasks
 {
-    NSLog(@"%@: %@", request, tasks);
-    for(id task in tasks)
+    for(id taskInfo in tasks)
     {
-        NSString *title = task[@"title"];
-        NSString *listId = task[@"list_id"];
-        [self.delegate kit:self receivedTask:title inList:listId];
+        BTWTask *task = [[BTWTask alloc] initWithInfo:taskInfo];
+        [self.delegate kit:self receivedTask:task];
     }
 
+    [self.delegate kitFinishedReceivingLists:self];
 }
 
 @end

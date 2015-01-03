@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DF00D9D2192E4EC300B74D2C /* BTWList.m in Sources */ = {isa = PBXBuildFile; fileRef = DFBD5206192E4D7E00217149 /* BTWList.m */; };
 		DF50F9D4192BFF5C00BB1ADF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF50F9D3192BFF5C00BB1ADF /* Foundation.framework */; };
 		DF50F9D9192BFF5C00BB1ADF /* BTWunderfulKit.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = DF50F9D8192BFF5C00BB1ADF /* BTWunderfulKit.h */; };
 		DF50F9DB192BFF5C00BB1ADF /* BTWunderfulKit.m in Sources */ = {isa = PBXBuildFile; fileRef = DF50F9DA192BFF5C00BB1ADF /* BTWunderfulKit.m */; };
@@ -49,6 +50,11 @@
 		DF50FA9D192C66B100BB1ADF /* BTWClient.m in Sources */ = {isa = PBXBuildFile; fileRef = DF50F9FA192BFF8500BB1ADF /* BTWClient.m */; };
 		DF50FA9E192C66B100BB1ADF /* BTWUrlConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = DF50FA57192C551600BB1ADF /* BTWUrlConnection.m */; };
 		DF50FA9F192C66B100BB1ADF /* BTWunderfulKit.m in Sources */ = {isa = PBXBuildFile; fileRef = DF50F9DA192BFF5C00BB1ADF /* BTWunderfulKit.m */; };
+		DFBD51FE192E45C500217149 /* BTWObject.m in Sources */ = {isa = PBXBuildFile; fileRef = DFBD51FD192E45C500217149 /* BTWObject.m */; };
+		DFBD5202192E45DC00217149 /* BTWTask.m in Sources */ = {isa = PBXBuildFile; fileRef = DFBD5201192E45DC00217149 /* BTWTask.m */; };
+		DFBD5203192E47CB00217149 /* BTWTask.m in Sources */ = {isa = PBXBuildFile; fileRef = DFBD5201192E45DC00217149 /* BTWTask.m */; };
+		DFBD5204192E47CD00217149 /* BTWObject.m in Sources */ = {isa = PBXBuildFile; fileRef = DFBD51FD192E45C500217149 /* BTWObject.m */; };
+		DFBD5207192E4D7E00217149 /* BTWList.m in Sources */ = {isa = PBXBuildFile; fileRef = DFBD5206192E4D7E00217149 /* BTWList.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -115,6 +121,12 @@
 		DF50FA7F192C668700BB1ADF /* BTWunderfulKit-OSXTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BTWunderfulKit-OSXTests-Info.plist"; sourceTree = "<group>"; };
 		DF50FA81192C668700BB1ADF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DF50FA83192C668700BB1ADF /* BTWunderfulKit_OSXTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTWunderfulKit_OSXTests.m; sourceTree = "<group>"; };
+		DFBD51FC192E45C500217149 /* BTWObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTWObject.h; sourceTree = "<group>"; };
+		DFBD51FD192E45C500217149 /* BTWObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTWObject.m; sourceTree = "<group>"; };
+		DFBD5200192E45DC00217149 /* BTWTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTWTask.h; sourceTree = "<group>"; };
+		DFBD5201192E45DC00217149 /* BTWTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTWTask.m; sourceTree = "<group>"; };
+		DFBD5205192E4D7E00217149 /* BTWList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTWList.h; sourceTree = "<group>"; };
+		DFBD5206192E4D7E00217149 /* BTWList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTWList.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -199,6 +211,7 @@
 				DF50F9D8192BFF5C00BB1ADF /* BTWunderfulKit.h */,
 				DF50F9DA192BFF5C00BB1ADF /* BTWunderfulKit.m */,
 				DF50F9FD192BFFD200BB1ADF /* API */,
+				DFBD51FF192E45CB00217149 /* Models */,
 				DF50F9FC192BFFC600BB1ADF /* Client */,
 				DF50F9D6192BFF5C00BB1ADF /* Supporting Files */,
 			);
@@ -283,6 +296,19 @@
 				DF50FA80192C668700BB1ADF /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DFBD51FF192E45CB00217149 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DFBD51FC192E45C500217149 /* BTWObject.h */,
+				DFBD51FD192E45C500217149 /* BTWObject.m */,
+				DFBD5205192E4D7E00217149 /* BTWList.h */,
+				DFBD5206192E4D7E00217149 /* BTWList.m */,
+				DFBD5200192E45DC00217149 /* BTWTask.h */,
+				DFBD5201192E45DC00217149 /* BTWTask.m */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -421,13 +447,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFBD5207192E4D7E00217149 /* BTWList.m in Sources */,
 				DF50FA55192C142A00BB1ADF /* BTWLoginRequest.m in Sources */,
+				DFBD5202192E45DC00217149 /* BTWTask.m in Sources */,
 				DF50FA58192C551600BB1ADF /* BTWUrlConnection.m in Sources */,
 				DF50FA52192C13F200BB1ADF /* BTWRequest.m in Sources */,
 				DF50FA61192C625200BB1ADF /* BTWTasksRequest.m in Sources */,
 				DF50F9DB192BFF5C00BB1ADF /* BTWunderfulKit.m in Sources */,
 				DF50F9FB192BFF8500BB1ADF /* BTWClient.m in Sources */,
 				DF50FA5B192C5B8700BB1ADF /* BTWListsRequest.m in Sources */,
+				DFBD51FE192E45C500217149 /* BTWObject.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -450,12 +479,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF00D9D2192E4EC300B74D2C /* BTWList.m in Sources */,
 				DF50FA8E192C66AA00BB1ADF /* BTWTasksRequest.m in Sources */,
+				DFBD5203192E47CB00217149 /* BTWTask.m in Sources */,
 				DF50FA8D192C66AA00BB1ADF /* BTWListsRequest.m in Sources */,
 				DF50FA9B192C66B100BB1ADF /* BTWUrlConnection.m in Sources */,
 				DF50FA8C192C66AA00BB1ADF /* BTWLoginRequest.m in Sources */,
 				DF50FA9C192C66B100BB1ADF /* BTWunderfulKit.m in Sources */,
 				DF50FA9A192C66B100BB1ADF /* BTWClient.m in Sources */,
+				DFBD5204192E47CD00217149 /* BTWObject.m in Sources */,
 				DF50FA8B192C66AA00BB1ADF /* BTWRequest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -735,6 +767,7 @@
 				DF50F9F5192BFF5D00BB1ADF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DF50F9F6192BFF5D00BB1ADF /* Build configuration list for PBXNativeTarget "BTWunderfulKitTests" */ = {
 			isa = XCConfigurationList;
@@ -743,6 +776,7 @@
 				DF50F9F8192BFF5D00BB1ADF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DF50FA85192C668700BB1ADF /* Build configuration list for PBXNativeTarget "BTWunderfulKit-OSX" */ = {
 			isa = XCConfigurationList;
@@ -751,6 +785,7 @@
 				DF50FA87192C668700BB1ADF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DF50FA88192C668700BB1ADF /* Build configuration list for PBXNativeTarget "BTWunderfulKit-OSXTests" */ = {
 			isa = XCConfigurationList;
@@ -759,6 +794,7 @@
 				DF50FA8A192C668700BB1ADF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
